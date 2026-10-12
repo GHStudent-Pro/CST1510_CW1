@@ -2,9 +2,9 @@
 RECORD CHECK  -  my version
 ===========================
 
-Name  :
-Lane  :  AI / Cyber / IT      (delete two)
-Date  :
+Name  :  Mahin Zaeem
+Lane  :  AI      
+Date  :  12/10/2026
 
 Run it:   python template.py
 
@@ -21,9 +21,10 @@ Delete these instructions as you replace them with your code.
 #
 #    Remember: input() always gives back text.
 
-label = ""      # : replace with an input() call
-first = 0.0     # : replace with an input() call, converted
-second = 0.0    # : replace with an input() call, converted
+
+dataset_name = input("Enter the dataset name: ")      # : replace with an input() call
+rows_loaded = float(input("Enter the rows loaded: "))     # : replace with an input() call, converted
+rows_expected = float(input("Enter the rows expected: ")) # : replace with an input() call, converted
 
 
 # ================================================================== PROCESS
@@ -34,9 +35,9 @@ second = 0.0    # : replace with an input() call, converted
 #
 #    Do not type the answers. Calculate them.
 
-difference = 0.0   # 
-percent = 0.0      # 
-
+missing_rows = rows_expected - rows_loaded  
+loaded_percent = (rows_loaded / rows_expected) * 100
+remaining_percent = 100 - loaded_percent  # Shows how much of the dataset is still missing
 
 # =================================================================== OUTPUT
 # 3. Print the report.
@@ -48,15 +49,19 @@ percent = 0.0      #
 #    Useful:   f"{value:>10.2f}"    right-aligned, 2 decimal places
 #              f"{value:>+10.2f}"   the same, but always shows the sign
 
-print()
+
+print("\n" + "=" * 34)
+print(f"  RECORD CHECK  -  {dataset_name}")
 print("=" * 34)
-print(f"  RECORD CHECK  -  {label}")
+print(f"  Rows loaded      : {rows_loaded:>10.2f}")
+print(f"  Rows expected    : {rows_expected:>10.2f}")
+print(f"  Missing rows     : {missing_rows:>+10.2f}")
+print(f"  Loaded percent   : {loaded_percent:>10.2f}%")
+print(f"  Remaining percent: {remaining_percent:>10.2f}%")
 print("=" * 34)
 
-# : your report lines go here
 
-print("=" * 34)
-
+#The "remaining_percent" variable is the extra line I added to show how much of the dataset is still missing. 
 
 # ==========================================================================
 # 4. Before you finish:
