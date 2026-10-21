@@ -1,6 +1,8 @@
 # Learning material: only each week's LAB folder is uploaded
 Week */*
 !Week */LAB/
+!Week 05 - Classes and Objects/
+!Week 05 - Classes and Objects/**
 
 # Files that should never be uploaded
 .venv/
