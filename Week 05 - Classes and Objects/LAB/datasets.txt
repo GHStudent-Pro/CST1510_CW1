@@ -1,0 +1,4 @@
+survey_2026,1187,1200
+customer_churn,950,1200
+sensor_logs,5200,5000
+image_labels,4800,5000

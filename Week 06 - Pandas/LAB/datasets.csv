@@ -1,0 +1,7 @@
+dataset,rows_loaded,rows_expected
+survey_2026,1187,1200
+customer_churn,950,1200
+sensor_logs,5200,5000
+image_labels,4800,5000
+sales_q3,3000,3000
+web_clicks,7100,10000

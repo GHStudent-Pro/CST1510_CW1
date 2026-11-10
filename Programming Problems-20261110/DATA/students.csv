@@ -1,0 +1,26 @@
+Name,Age,Course,Grade,Attendance,City,Scholarship
+Alice Johnson,18,Computer Science,95,95,London,Yes
+Ben Carter,18,Computer Science,88,90,London,Yes
+Chloe Davies,18,Computer Science,82,88,Manchester,Yes
+Daniel Evans,18,Computer Science,79,85,Birmingham,No
+Emma Foster,18,Computer Science,76,82,London,No
+Frank Green,18,Computer Science,72,80,Leeds,No
+Grace Hall,18,Computer Science,68,75,London,No
+Harry Irwin,18,Computer Science,65,72,Manchester,No
+Isla Jones,18,Mathematics,91,95,Manchester,Yes
+Jack King,18,Mathematics,89,92,London,Yes
+Kiran Patel,18,Mathematics,85,90,Birmingham,Yes
+Layla Moore,18,Mathematics,82,88,London,Yes
+Mohammed Khan,18,Mathematics,80,83,Leeds,No
+Nina Owens,18,Mathematics,66,70,London,No
+Oliver Price,18,Data Science,92,94,London,Yes
+Priya Shah,18,Data Science,84,88,Manchester,No
+Quinn Reed,18,Data Science,78,86,Leeds,No
+Rosa Silva,18,Data Science,74,76,London,No
+Sam Turner,18,Data Science,58,65,Birmingham,No
+Tara Underwood,18,Data Science,55,60,Manchester,No
+Umar Vaughan,18,Cyber Security,87,91,London,Yes
+Violet Walsh,18,Cyber Security,81,85,Manchester,No
+Will Xavier,18,Cyber Security,70,78,Birmingham,Yes
+Yara Young,18,Cyber Security,62,70,Leeds,No
+Zane Adams,18,Cyber Security,45,55,London,No
